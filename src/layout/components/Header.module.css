@@ -1,0 +1,41 @@
+.container {
+    background-color: #f0f0f0;
+    padding: 20px 0px 0px;
+}
+
+.navmenu {
+    display: flex;
+    flex-direction: column;
+    max-width: 1240px;
+    margin: 10px auto 0px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* h1 {
+    color: #007eac;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 18px;
+    transform: scale(1.0);
+    transition: .2s ease;
+}
+*/
+
+
+.logo {
+    width: 150px;
+    border-radius: 8px;
+    transform: scale(1.0);
+    transition: .2s ease;
+}
+
+.logo:hover{
+  transform: scale(1.05);
+  transition: .3s ease;
+}
